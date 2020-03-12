@@ -10,7 +10,11 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             var o = new myframeworklib.FrameworkKittens();
-            var n = o.GetKittenCount();  // will error see https://stackoverflow.com/questions/60217182/could-not-load-file-or-assembly-microsoft-extensions-dependencyinjection-abstra
+            var n = o.GetKittenCount();
+            //  https://stackoverflow.com/questions/60217182/could-not-load-file-or-assembly-microsoft-extensions-dependencyinjection-abstra
+            // requires special settings in project file
+            // < AutoGenerateBindingRedirects > true </ AutoGenerateBindingRedirects >
+            // < GenerateBindingRedirectsOutputType > true </ GenerateBindingRedirectsOutputType >
         }
     }
 }
