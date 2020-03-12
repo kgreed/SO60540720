@@ -6,3 +6,13 @@
 /mynetstdlib/.vs/SoKittens/v16/Server/sqlite3
 /mynetstdlib/.vs/SoKittens/v16/TestStore/0
 /mynetstdlib/.vs/SoKittens
+/mycorelib/bin/Debug/netcoreapp3.1
+/mycorelib/obj
+/myframeworklib/bin/Debug
+/myframeworklib/obj/Debug
+/mynetstdlib/bin/Debug/netstandard2.0
+/mynetstdlib/obj
+/UnitTestProject1/bin/Debug
+/UnitTestProject1/obj
+/vb6/UnitTestProject1.dll.config
+/vb6/AppSettings.json
