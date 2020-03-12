@@ -8,6 +8,7 @@ namespace mynetstdlib
            
             using (var db = new MyDbContext())
             {
+                db.Database.EnsureCreated();
                 return db.Kittens.Count();
             }
             
